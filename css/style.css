@@ -42,7 +42,33 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 130px;
+	
 }
 .imgw{
 	width: 1170px;
+	position: relative;
+}
+.wrap{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom:0;
+	left: 0;
+	margin-bottom: 22px;
+	margin-left: 30px;
+}
+.inside{
+	font-size: 30px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+.wrap2{
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 30px;
+	margin-right: 30px;
 }
